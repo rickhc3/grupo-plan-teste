@@ -1,5 +1,12 @@
 #!/bin/bash
 
+
+curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+
+composer install
+
+cp .env.example .env
+
 # Limpar cache
 php artisan cache:clear
 php artisan config:clear

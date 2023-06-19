@@ -32,14 +32,18 @@ RUN chown -R www-data:www-data /var/www/html/storage
 RUN chmod -R 775 /var/www/html/storage
 
 # Instalar dependências do Composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+# RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
+COPY ./api/composer.lock /var/www/html
+COPY ./api/composer.json /var/www/html
 # Instalar dependências do projeto
-WORKDIR /var/www/html
-RUN composer install
+# WORKDIR /var/www/html
+# RUN composer install
 
 COPY ./api/run.sh /tmp
 
+# Conceder permissões de execução ao arquivo run.sh
+RUN chmod +x /tmp/run.sh
 
 # Expor porta do Apache
 EXPOSE 8000
