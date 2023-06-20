@@ -14,6 +14,8 @@ php artisan config:clear
 # Gerar chave de aplicativo do Laravel
 php artisan key:generate
 
+sleep 20
+
 # Rodar migrations
 php artisan migrate
 
