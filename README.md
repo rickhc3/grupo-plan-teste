@@ -59,6 +59,7 @@ Siga as etapas abaixo para testar o projeto em seu ambiente local:
 A API possui as seguintes rotas disponíveis:
 
 - `GET /api/home-appliances`: Retorna a lista de eletrodomésticos cadastrados.
+- `GET /api/home-appliances/{id}`: Retorna um registro específico de eletrodomésticos cadastrados.
 - `POST /api/home-appliances`: Cria um novo registro de eletrodoméstico.
 - `PUT /api/home-appliances/{id}`: Atualiza um registro de eletrodoméstico existente.
 - `DELETE /api/home-appliances/{id}`: Remove um registro de eletrodoméstico existente.
