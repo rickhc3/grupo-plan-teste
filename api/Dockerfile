@@ -37,8 +37,9 @@ RUN chmod -R 775 /var/www/html/storage
 COPY ./api/composer.lock /var/www/html
 COPY ./api/composer.json /var/www/html
 # Instalar dependências do projeto
-# WORKDIR /var/www/html
+WORKDIR /var/www/html
 # RUN composer install
+RUN pwd
 
 COPY ./api/run.sh /tmp
 

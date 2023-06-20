@@ -9,7 +9,7 @@ WORKDIR /app
 
 # Instalar as dependências do frontend
 COPY ./front/package.json .
-RUN yarn
+# RUN yarn
 
 # Copiar o código do frontend
 COPY . .
