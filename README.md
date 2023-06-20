@@ -309,6 +309,7 @@ O projeto também inclui os seguintes diferenciais técnicos:
 - Utilização do Vuex para gerenciamento de estado.
 - Utilização do Vue Router para gerenciamento de rotas no frontend.
 - Utilização do TypeScript no frontend.
+- Para gerar o gráfico foi utilizado o Chart.js.
 
 ## Possíveis falhas
 
