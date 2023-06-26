@@ -101,22 +101,22 @@ Aqui estão alguns exemplos de requisições para a API:
 "last_page": 1,
 "last_page_url": "http:\/\/localhost:4002\/api\/home-appliances?page=1",
 "links": [
-		{
-			"url": null,
-			"label": "&laquo; Previous",
-			"active": false
-		},
-		{
-			"url": "http:\/\/localhost:4002\/api\/home-appliances?page=1",
-			"label": "1",
-			"active": true
-		},
-		{
-			"url": null,
-			"label": "Next &raquo;",
-			"active": false
-		}
-	],
+    {
+        "url": null,
+        "label": "&laquo; Previous",
+        "active": false
+    },
+    {
+        "url": "http:\/\/localhost:4002\/api\/home-appliances?page=1",
+        "label": "1",
+        "active": true
+    },
+    {
+        "url": null,
+        "label": "Next &raquo;",
+        "active": false
+    }
+],
 "next_page_url": null,
 "path": "http:\/\/localhost:4002\/api\/home-appliances",
 "per_page": 100,
@@ -205,45 +205,45 @@ Há rotas para gerenciamento de usuários, mas nem todas estão disponíveis no 
 
 ```json
 {
-	"current_page": 1,
-	"data": [
-		{
-			"id": 1,
-			"name": "Admin User",
-			"email": "admin@admin.com",
-			"email_verified_at": "2023-06-20T00:27:55.000000Z",
-			"role": "admin",
-			"created_at": "2023-06-20T00:27:55.000000Z",
-			"updated_at": "2023-06-20T00:27:55.000000Z"
-		}
-	],
-	"first_page_url": "http:\/\/127.0.0.1:4002\/api\/users?page=1",
-	"from": 1,
-	"last_page": 1,
-	"last_page_url": "http:\/\/127.0.0.1:4002\/api\/users?page=1",
-	"links": [
-		{
-			"url": null,
-			"label": "&laquo; Previous",
-			"active": false
-		},
-		{
-			"url": "http:\/\/127.0.0.1:4002\/api\/users?page=1",
-			"label": "1",
-			"active": true
-		},
-		{
-			"url": null,
-			"label": "Next &raquo;",
-			"active": false
-		}
-	],
-	"next_page_url": null,
-	"path": "http:\/\/127.0.0.1:4002\/api\/users",
-	"per_page": 100,
-	"prev_page_url": null,
-	"to": 1,
-	"total": 1
+    "current_page": 1,
+    "data": [
+        {
+            "id": 1,
+            "name": "Admin User",
+            "email": "admin@admin.com",
+            "email_verified_at": "2023-06-20T00:27:55.000000Z",
+            "role": "admin",
+            "created_at": "2023-06-20T00:27:55.000000Z",
+            "updated_at": "2023-06-20T00:27:55.000000Z"
+        }
+    ],
+    "first_page_url": "http:\/\/127.0.0.1:4002\/api\/users?page=1",
+    "from": 1,
+    "last_page": 1,
+    "last_page_url": "http:\/\/127.0.0.1:4002\/api\/users?page=1",
+    "links": [
+        {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+        },
+        {
+            "url": "http:\/\/127.0.0.1:4002\/api\/users?page=1",
+            "label": "1",
+            "active": true
+        },
+        {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+        }
+    ],
+    "next_page_url": null,
+    "path": "http:\/\/127.0.0.1:4002\/api\/users",
+    "per_page": 100,
+    "prev_page_url": null,
+    "to": 1,
+    "total": 1
 }
 ```
 
