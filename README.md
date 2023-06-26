@@ -305,6 +305,7 @@ Há rotas para gerenciamento de usuários, mas nem todas estão disponíveis no 
 O projeto também inclui os seguintes diferenciais técnicos:
 
 - Autenticação utilizando Sanctum.
+- Repository Pattern no Laravel.
 - Utilização do framework Nuxt.js no frontend.
 - Utilização do Vuex para gerenciamento de estado.
 - Utilização do Vue Router para gerenciamento de rotas no frontend.
